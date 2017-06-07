@@ -11,7 +11,7 @@ import java.util.List;
 
 @Controller
 @EnableAutoConfiguration
-public class SampleController {
+public class UserController {
 
     @Autowired
     private UserRepository repository;
