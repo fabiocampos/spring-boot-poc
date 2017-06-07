@@ -3,15 +3,13 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.5.2.RELEASE")
-        //classpath('org.flywaydb:flyway-gradle-plugin:3.2.1')
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.5.3.RELEASE")
     }
 }
 
 apply plugin: 'java'
 apply plugin: 'spring-boot'
 apply plugin: 'application'
-//apply plugin: 'org.flywaydb.flyway'
 
 mainClassName = "com.bmydj.Application"
 
